@@ -123,3 +123,16 @@ if ( require.main === module && process.argv[2] == 'test' ) {
   
   connect(server, callback);
 }
+
+
+//-----------------------
+//  test
+//-----------------------
+
+// connect({ host: '216.93.246.18', port: 3478 }, ( error, socket ) =>{
+//   if ( !error ) {
+//     console.log(socket.stun);
+//     socket.close();
+//   }
+//   else console.log('Something went wrong: ' + error);
+// },{count:5});
